@@ -1,0 +1,18 @@
+body{
+  background-color: skyblue;
+}
+.container{
+  padding: 35px;
+  margin: auto;
+  text-align: center;
+}
+h1{
+  font-size: 38px
+}
+table{
+  border-radius: 2px;
+  border-style: none;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+}

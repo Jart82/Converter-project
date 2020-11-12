@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="converter.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Currency Converter</h1>
+      </div>
+    </div>
+    <div class="">
+      <div class="container">
+        <table style="background: white">
+          <thead>
+            <th>Currency</th>
+            <th>Amount</th>
+          </thead>
+          <tr>
+            <td> <select id="fromName" class="currrency" name="" oninput="to()">
+              <option value="USD">Dollar(USD)</option>
+              <option value="NGN">Naira</option>
+              <option value="GBP">Pounds Sterling(GBP)</option>
+              <option value="EUR">Euro(EUR)</option>
+              <option value="KWD">Kuwait Dinar(KWD)</option>
+              <option value="BHD">Bahrain Dinar(BHD)</option>
+              <option value="CAD">Canadian Dollar(CAD)</option>
+              <option value="JOD">Jordan Dinar(JOD)</option>
+              <option value="CHF">Swiss Franc(CHF)</option>
+              <option value="NZD">New Zealand Dollar(NZD)</option>
+            </select> </td>
+            <td> <input id="from" type="number" name="" value="0" oninput="from()"> </td>
+          </tr>
+          <tr>
+            <td> <select id="toName" class="currrency" id="currency" name="" oninput="from()">
+              <option value="NGN">Naira</option>
+              <option value="USD">Dollar(USD)</option>
+              <option value="GBP">Pounds Sterling(GBP)</option>
+              <option value="EUR">Euro(EUR)</option>
+              <option value="KWD">Kuwait Dinar(KWD)</option>
+              <option value="BHD">Bahrain Dinar(BHD)</option>
+              <option value="CAD">Canadian Dollar(CAD)</option>
+              <option value="JOD">Jordan Dinar(JOD)</option>
+              <option value="CHF">Swiss Franc(CHF)</option>
+              <option value="NZD">New Zealand Dollar(NZD)</option>
+            </select> </td>
+            <td><input id="to" type="number" name="" value="0" oninput="to()"> </td>
+          </tr>
+
+        </table>
+
+      </div>
+
+    </div>
+
+    <script src="converter.js" charset="utf-8"></script>
+  </body>
+</html>
